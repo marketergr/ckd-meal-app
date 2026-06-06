@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Test-Path \"d:\\\\ai playground\\\\ckd meal saas\"; \\(Get-ChildItem -Path \"d:\\\\ai playground\\\\ckd meal saas\" -Force\\).Count)"
+    ]
+  }
+}
