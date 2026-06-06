@@ -3,54 +3,5 @@
   "outputDirectory": ".next",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "framework": "nextjs",
-  "nodeVersion": "20.x",
-  "env": [
-    {
-      "key": "NEXT_PUBLIC_SUPABASE_URL",
-      "description": "Supabase project URL",
-      "required": true,
-      "type": "string"
-    },
-    {
-      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
-      "description": "Supabase anonymous key",
-      "required": true,
-      "type": "string"
-    },
-    {
-      "key": "SUPABASE_SERVICE_ROLE_KEY",
-      "description": "Supabase service role key (server-only)",
-      "required": true,
-      "type": "string",
-      "sensitive": true
-    },
-    {
-      "key": "OPENAI_API_KEY",
-      "description": "OpenAI API key for GPT-4o vision",
-      "required": true,
-      "type": "string",
-      "sensitive": true
-    },
-    {
-      "key": "TWILIO_ACCOUNT_SID",
-      "description": "Twilio account SID (optional)",
-      "required": false,
-      "type": "string",
-      "sensitive": true
-    },
-    {
-      "key": "TWILIO_AUTH_TOKEN",
-      "description": "Twilio auth token (optional)",
-      "required": false,
-      "type": "string",
-      "sensitive": true
-    },
-    {
-      "key": "TWILIO_PHONE_NUMBER",
-      "description": "Twilio phone number (optional)",
-      "required": false,
-      "type": "string"
-    }
-  ]
+  "framework": "nextjs"
 }
